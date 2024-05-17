@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Articles and Guides</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming Articles and Guides</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Gaming Articles and Guides</h2>
+            <p>Your ultimate destination for the latest gaming news, articles, and guides.</p>
+        </section>
+
+        <section id="articles">
+            <h2>Latest Articles</h2>
+            <article>
+                <h3>Article Title 1</h3>
+                <p>Summary of the article...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Article Title 2</h3>
+                <p>Summary of the article...</p>
+                <a href="#">Read more</a>
+            </article>
+            <!-- Add more articles as needed -->
+        </section>
+
+        <section id="guides">
+            <h2>Gaming Guides</h2>
+            <article>
+                <h3>Guide Title 1</h3>
+                <p>Summary of the guide...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Guide Title 2</h3>
+                <p>Summary of the guide...</p>
+                <a href="#">Read more</a>
+            </article>
+            <!-- Add more guides as needed -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Information about the website and its creators.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gaming Articles and Guides. All rights reserved.</p>
+    </footer>
+</body>
+</html>
